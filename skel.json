@@ -1,0 +1,18 @@
+{
+  "name": "html-test",
+  "description": "Testem, make targets and an example page",
+  "extends": [ "mocha-test", "travis" ],
+  "files": [
+    "test/*"
+  ],
+  "development": {
+    "chaijs/chai": "*"
+  },
+  "node": {
+    "devDependencies": {
+      "testem": "*"
+    }
+  },
+  "make": true
+}
+
